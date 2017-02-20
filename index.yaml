@@ -12,12 +12,31 @@ indexes:
 
 - kind: Post
   properties:
+  - name: -author
+  - name: created
+    direction: desc
+
+- kind: Post
+  properties:
   - name: author
   - name: created
 
 - kind: Post
   properties:
   - name: author
+  - name: created
+    direction: desc
+
+- kind: Post
+  properties:
+  - name: author
+    direction: desc
+  - name: created
+
+- kind: Post
+  properties:
+  - name: author
+    direction: desc
   - name: created
     direction: desc
 
